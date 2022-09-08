@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: 'Alata', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+	max-width: 1100px;
+	margin: 0 15%;
+}
+#header {
+	background-image: url(images/desktop/image-hero.jpg);
+	background-repeat: no-repeat;
+	height: 650px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 80px;
+}
+#header .nav-top a {
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+	padding-left: 20px;
+}
+.header-title h1 {
+	color: hsl(0, 0%, 100%);
+	border: 1px solid hsl(0, 0%, 100%);
+	width: 60%;
+	margin-top: 120px;
+	padding: 30px;
+	font-size: 4rem;
+}
+.leader-wrapper {
+	width: 100%;
+	padding-top: 110px;
+	padding-bottom: 160px;
+	font-size: 0;
+}
+.leader-img {
+	display: inline-block;
+	width: 50%;
+}
+.leader-card-wrapper {
+	background-color: hsl(0, 0%, 100%);
+	display: inline-block;
+	border: 1px solid hsl(0, 0%, 100%);
+	padding-top: 70px;
+	padding-left: 70px;
+	width: 45%;
+	position: relative;
+	left: -70px;
+}
+.leader-card-wrapper h2 {
+	font-size: 2.5rem;
+	padding-bottom: 20px;
+}
+.creations-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 60px;
+}
+#creations h2 {
+	font-size: 2.5rem;
+}
+.creations-btn {
+	padding: 8px 30px;
+}
+.creations-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 3%;
+	column-gap: 3%;
+	padding-bottom: 200px;
+}
+.creations-grid-tile {
+	position: relative;
+}
+.creations-grid-tile-img {
+	width: 100%;
+}
+.creations-grid-tile-text {
+	color: hsl(0, 0%, 100%);
+	font-size: 1.8rem;
+	position: absolute;
+	left: 20px;
+	bottom: 40px;
+}
+#footer {
+	background-color: hsl(0, 0%, 0%);
+	height: 25vh;
+}
+.footer-1 {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.social-media-icons {
+	padding-left: 8px;
+}
+.footer-2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+#footer .nav-bottom a {
+	text-decoration: none;
+	color: hsl(0, 0%, 100%);
+	padding-right: 20px;
+}
+.copyright {
+	color: hsl(0, 0%, 100%);
+	font-size: 0.25rem;
+}
+.attribution {
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	font-size: 9px;
+	padding-top: 10px;
+	display: none;
+}
